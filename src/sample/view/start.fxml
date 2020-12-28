@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="242.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.control.StartControl">
+   <children>
+      <Button layoutX="14.0" layoutY="106.0" mnemonicParsing="false" text="English" fx:id="openEnglishTable"/>
+      <Button layoutX="79.0" layoutY="106.0" mnemonicParsing="false" prefWidth="54.0" text="Fiz" />
+      <Button layoutX="147.0" layoutY="106.0" mnemonicParsing="false" prefWidth="54.0" text="Math" />
+      <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="выберите журнал курса">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
